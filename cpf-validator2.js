@@ -13,5 +13,3 @@ function cpfValidator(cpf) {
     if(checkedCpf.join('') === cleanCpf.join('')) {return 'Cpf válido'} else {return 'Cpf inválido'}; 
 
 }
-
-console.log(cpfValidator('267.930.090-44'));
